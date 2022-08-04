@@ -1,14 +1,14 @@
 
 describe('TatilBudurExample', () => {
 
-    PATH = '/Users/mobven/Desktop/example_webdriver_io/example_test_tatilbudur/screenShot/'
+    PATH = '/Users/mobven/Desktop/example_webdriver_io/webdriverIO-Js-Example/screenShot/'
     var date= new Date()
 
     it('Open Url Title Control', async () => {
        
         await browser.url("https://www.tatilbudur.com")
-        /*await browser.maximizeWindow();
-        await browser.setWindowSize(1920, 1080);*/
+        await browser.maximizeWindow();
+        await browser.setWindowSize(1920, 1080);
         await browser.fullscreenWindow();
         await expect(browser).toHaveTitle("TatilBudur ile %50'ye Varan İndirimli Tatil Fırsatlarını Kaçırmayın!")
         await browser.pause(5000)

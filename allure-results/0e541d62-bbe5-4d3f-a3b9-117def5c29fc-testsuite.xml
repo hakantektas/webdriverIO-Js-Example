@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1659609997462' stop='1659610014722'>
+    <name>TatilBudurExample</name>
+    <title>TatilBudurExample</title>
+    <test-cases>
+        <test-case start='1659609997463' status='broken' stop='1659610004940'>
+            <name>Open Url Title Control</name>
+            <title>Open Url Title Control</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-104.0.5112.79'/>
+            </parameters>
+            <steps>
+                <step start='1659609997468' status='passed' stop='1659609998642'>
+                    <name>navigateTo</name>
+                    <title>navigateTo</title>
+                    <attachments>
+                        <attachment title='Request' source='cc775316-bbd8-41ef-ba02-09343ab4b998-attachment.json' type='application/json' size='42'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659610000077' status='passed' stop='1659610004938'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6a76f0c5-1a44-44a7-8a83-d9509cbb333c-attachment.png' type='image/png' size='5606068'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Command "maximizeWindow" is not yet implemented</message>
+                <stack-trace>Error: Command "maximizeWindow" is not yet implemented
+                    at Browser.retries (/Users/mobven/Desktop/example_webdriver_io/webdriverIO-Js-Example/node_modules/devtools/build/devtoolsdriver.js:90:34)
+                    at async Context.&lt;anonymous> (/Users/mobven/Desktop/example_webdriver_io/webdriverIO-Js-Example/test/specs/firstTest.js:10:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1659610004965' status='failed' stop='1659610014716'>
+            <name>Search with City</name>
+            <title>Search with City</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-104.0.5112.79'/>
+            </parameters>
+            <steps>
+                <step start='1659610005704' status='passed' stop='1659610006418'>
+                    <name>findElement</name>
+                    <title>findElement</title>
+                    <attachments>
+                        <attachment title='Request' source='9de1d55b-5050-4207-99b0-11dc8572208f-attachment.json' type='application/json' size='61'/>
+                        <attachment title='Response' source='10298773-585d-47e9-97c9-54de853e0765-attachment.json' type='application/json' size='56'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659610006622' status='passed' stop='1659610006856'>
+                    <name>elementClear</name>
+                    <title>elementClear</title>
+                    <attachments>
+                        <attachment title='Request' source='975bd3d8-9bba-4dc3-8353-5636d9e19ec7-attachment.json' type='application/json' size='30'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659610007000' status='passed' stop='1659610007313'>
+                    <name>elementSendKeys</name>
+                    <title>elementSendKeys</title>
+                    <attachments>
+                        <attachment title='Request' source='e773a4a2-0af2-4fe6-af54-f0102f9f0548-attachment.json' type='application/json' size='51'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1659610012323' status='passed' stop='1659610014715'>
+                    <name>takeScreenshot</name>
+                    <title>takeScreenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='2e14bd89-c60f-4740-89ff-367bfa3f4355-attachment.png' type='image/png' size='4253750'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>saveScreenshot expects a filepath of type string and ".png" file ending</message>
+                <stack-trace>Error: saveScreenshot expects a filepath of type string and ".png" file ending
+                    at async Context.&lt;anonymous> (/Users/mobven/Desktop/example_webdriver_io/webdriverIO-Js-Example/test/specs/firstTest.js:23:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
